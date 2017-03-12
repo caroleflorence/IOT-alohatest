@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IOT-alohatest
+  host: IOT-alohatest
+  disk_quota: 1024M
+  services:
+  - IOT-alohatest-cloudantNoSQLDB
+  - IOT-alohatest-iotf-service
+  - availability-monitoring-auto
